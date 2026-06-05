@@ -6,7 +6,6 @@ import { useRef } from 'react'
 
 const contacts = [
   { icon: '✉', type: 'Email', val: 'uziikhan309@gmail.com', href: 'mailto:uziikhan309@gmail.com' },
-  { icon: '📞', type: 'Phone / WhatsApp', val: '+92 323 912 9306' },
   { icon: '💼', type: 'LinkedIn', val: 'linkedin.com/in/uzair-ali', href: 'https://linkedin.com/in/uzair-ali' },
   { icon: '🌐', type: 'Portfolio', val: 'geniflyai.xyz', href: 'https://www.geniflyai.xyz/' },
   { icon: '⌨', type: 'GitHub', val: 'github.com/Uzair625', href: 'https://github.com/Uzair625' },
