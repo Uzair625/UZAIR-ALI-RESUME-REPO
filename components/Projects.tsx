@@ -171,17 +171,33 @@ export default function Projects() {
               Freemium AI-powered web tools SaaS platform with dark gold/purple brand identity. React frontend + FastAPI backend + Supabase database. Hosted on Vercel + Railway.
             </div>
           </div>
-          <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-            {['React', 'FastAPI', 'Supabase', 'Vercel', 'Railway'].map((t) => (
-              <span key={t} style={{
+          <div style={{ display: 'flex', flexDirection: 'column', gap: 8, alignItems: 'flex-end' }}>
+            <a
+              href="https://www.geniflyai.xyz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
                 fontFamily: 'var(--font-mono)', fontSize: 10,
-                padding: '3px 8px', borderRadius: 3,
-                background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)',
-                color: 'var(--text2)',
-              }}>
-                {t}
-              </span>
-            ))}
+                letterSpacing: '0.1em', color: 'var(--gold)',
+                padding: '5px 14px', border: '1px solid rgba(255,183,0,0.4)',
+                borderRadius: 4, textTransform: 'uppercase',
+                background: 'rgba(255,183,0,0.06)',
+              }}
+            >
+              ↗ Live Site
+            </a>
+            <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+              {['React', 'FastAPI', 'Supabase', 'Vercel', 'Railway'].map((t) => (
+                <span key={t} style={{
+                  fontFamily: 'var(--font-mono)', fontSize: 10,
+                  padding: '3px 8px', borderRadius: 3,
+                  background: 'rgba(255,255,255,0.04)', border: '1px solid rgba(255,255,255,0.06)',
+                  color: 'var(--text2)',
+                }}>
+                  {t}
+                </span>
+              ))}
+            </div>
           </div>
         </motion.div>
       </div>
