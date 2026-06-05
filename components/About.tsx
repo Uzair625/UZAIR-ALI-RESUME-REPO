@@ -7,9 +7,8 @@ import { useRef } from 'react'
 const facts = [
   { key: 'Location', val: 'Pakistan 🇵🇰' },
   { key: 'Email', val: 'uziikhan309@gmail.com', href: 'mailto:uziikhan309@gmail.com' },
-  { key: 'Phone', val: '+92 323 912 9306' },
   { key: 'LinkedIn', val: 'linkedin.com/in/uzair-ali', href: 'https://linkedin.com/in/uzair-ali' },
-  { key: 'Portfolio', val: 'uzairali-portfolio.netlify.app', href: 'https://uzairali-portfolio.netlify.app' },
+  { key: 'Portfolio', val: 'geniflyai.xyz', href: 'https://www.geniflyai.xyz/' },
   { key: 'GitHub', val: 'github.com/Uzair625', href: 'https://github.com/Uzair625' },
   { key: 'Education', val: 'BS Data Science (ongoing)' },
   { key: 'Target', val: '🇺🇸 US  🇨🇦 CA  🇦🇪 UAE  🇩🇪 DE' },
