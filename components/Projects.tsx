@@ -85,7 +85,7 @@ export default function Projects() {
               <div style={{ padding: '1.6rem 1.6rem 0', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                 <span style={{ fontSize: 28, lineHeight: 1 }}>{p.emoji}</span>
                 <div style={{ display: 'flex', gap: 10 }}>
-                  {p.links.map((l) => (
+                  {p.links.map((l: { label: string; href?: string }) => (
                     l.href ? (
                       <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer"
                         style={{
