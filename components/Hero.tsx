@@ -72,7 +72,7 @@ export default function Hero() {
               display: 'flex', alignItems: 'center', gap: 10,
             }}
           >
-            <span style={{ color: 'var(--muted)' }}>//</span>
+            <span style={{ color: 'var(--muted)' }}>{'//'}</span>
             Open to Work — Remote / UAE / Germany
           </motion.div>
 
