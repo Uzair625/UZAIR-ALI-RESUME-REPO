@@ -8,7 +8,7 @@ const jobs = [
   {
     role: 'AI Automation Developer',
     company: 'Freelance — Upwork / Fiverr',
-    period: '2024 — Present',
+    period: '2024 — 2025',
     bullets: [
       'Delivering end-to-end AI automation systems for international clients using n8n, Claude API, GPT-4o-mini, and WhatsApp Business API.',
       'Built WhatsApp ordering bots, AI attendance systems, and LLM-powered workflow automation pipelines.',
