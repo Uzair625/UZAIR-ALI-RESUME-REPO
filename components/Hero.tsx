@@ -105,8 +105,8 @@ export default function Hero() {
               color: 'var(--text2)', marginBottom: '1.6rem', lineHeight: 1.8,
             }}
           >
-            <span style={{ color: 'var(--cyan)' }}>Python Developer</span> · AI Automation Specialist
-            <br />Flutter Dev · Data Analyst · LLM Integrations
+            <span style={{ color: 'var(--cyan)' }}>Python Developer</span> · AWS Cloud Learner
+            <br />Flutter Dev · Data Analyst · Backend Developer
           </motion.div>
 
           <motion.div

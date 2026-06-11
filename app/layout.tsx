@@ -2,23 +2,23 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Uzair Ali — Python Developer & AI Automation Specialist',
+  title: 'Uzair Ali — Python Developer & AWS Cloud Engineer',
   description:
-    'Portfolio of Uzair Ali — Python Developer, AI Automation Specialist, Flutter Dev & AWS Data Engineer (2026). Open to remote roles in US, Canada, UAE, Germany.',
+    'Portfolio of Uzair Ali — Python Developer, Flutter Dev & AWS Cloud Engineer (2026). Open to remote roles in US, Canada, UAE, Germany.',
   keywords: [
     'Uzair Ali',
     'Python Developer',
-    'AI Automation',
+    'AWS',
     'Flutter',
-    'n8n',
-    'LLM',
+    'Backend Developer',
+    'Data Analyst',
     'AWS Data Engineer',
     'Portfolio',
   ],
   authors: [{ name: 'Uzair Ali', url: 'https://github.com/Uzair625' }],
   openGraph: {
-    title: 'Uzair Ali — Python Developer & AI Automation Specialist',
-    description: 'Portfolio of Uzair Ali — Python, AI Automation, Flutter, AWS',
+    title: 'Uzair Ali — Python Developer & AWS Cloud Engineer',
+    description: 'Portfolio of Uzair Ali — Python, Flutter, AWS, Backend Development',
     type: 'website',
   },
 }

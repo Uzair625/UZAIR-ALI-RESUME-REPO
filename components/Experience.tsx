@@ -6,18 +6,6 @@ import { useRef } from 'react'
 
 const jobs = [
   {
-    role: 'AI Automation Developer',
-    company: 'Freelance — Upwork / Fiverr',
-    period: '2024 — 2025',
-    bullets: [
-      'Delivering end-to-end AI automation systems for international clients using n8n, Claude API, GPT-4o-mini, and WhatsApp Business API.',
-      'Built WhatsApp ordering bots, AI attendance systems, and LLM-powered workflow automation pipelines.',
-      'Integrating multiple AI platforms (Claude, Groq, Gemini) into production-grade n8n workflows for real business clients.',
-      'Building Flutter mobile apps with Firebase backend for local and international clients.',
-      'Targeting remote roles in US, Canada, UAE, and Germany via job boards and LinkedIn.',
-    ],
-  },
-  {
     role: 'Business Analyst / Backend Developer',
     company: 'Sarhad Cigarette Industries',
     period: 'Sep 2022 — Oct 2025',
@@ -49,7 +37,7 @@ export default function Experience() {
       <div className="container">
         <div className="section-label">Work Experience</div>
         <h2 className="section-title">Professional History</h2>
-        <p className="section-sub">3+ years of professional experience across data analytics, backend development, and AI automation.</p>
+        <p className="section-sub">3+ years of professional experience across data analytics, backend development, and AWS cloud.</p>
 
         <div ref={ref} className="timeline">
           {jobs.map((job, i) => (
